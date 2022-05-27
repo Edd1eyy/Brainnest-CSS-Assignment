@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(./fonts/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(./fonts/Roboto-Medium.ttf) format("truetype");
+}
+.info h1 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #3882f6;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fig {
+  margin: 1%;
+}
+.fig img {
+  border: solid #3882f6;
+  border-radius: 7px;
+  height: 200px;
+  width: 200px;
+}
+.fig figcaption {
+  font-family: "Roboto-Medium", sans-serif;
+  color: #1f2937;
+  height: auto;
+  text-align: center;
+  width: 200px;
+}
